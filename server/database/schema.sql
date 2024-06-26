@@ -15,5 +15,8 @@ create table excuses (
   Foreign Key (users_id) REFERENCES users(id),
   Foreign Key (categories_id) REFERENCES categories(id),
   users_id INT NOT NULL,
-  categories_id INT NOT NULL
+  categories_id INT NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL
+
 );

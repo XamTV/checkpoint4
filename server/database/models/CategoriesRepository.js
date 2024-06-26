@@ -1,6 +1,6 @@
 const AbstractRepository = require("./AbstractRepository");
 
-class ItemRepository extends AbstractRepository {
+class CategoriesRepository extends AbstractRepository {
   constructor() {
     // Call the constructor of the parent class (AbstractRepository)
     // and pass the table name "categories" as configuration
@@ -66,4 +66,4 @@ class ItemRepository extends AbstractRepository {
   }
 }
 
-module.exports = ItemRepository;
+module.exports = CategoriesRepository;

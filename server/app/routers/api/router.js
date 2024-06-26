@@ -18,6 +18,10 @@ const usersRouter = require("./users/UsersRouter");
 
 router.use("/users", usersRouter);
 
+const excusesRouter = require("./excuses/ExcusesRouter");
+
+router.use("/excuses", excusesRouter);
+
 /* ************************************************************************* */
 
 module.exports = router;
